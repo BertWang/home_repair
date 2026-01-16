@@ -195,6 +195,78 @@
     </style>
     <!-- Config/Styles -->
     <link rel="stylesheet" href="../assets/css/base.css">
+    <!-- Schema: Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "浴室翻修",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "專業浴室翻修工程，包含防水重做、磁磚鋪設、衛浴設備更新，提供三道防水工法與48小時試水測試。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南浴室防水重做要怎麼做才真正有效？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有效的防水絕非「塗兩層就好」。溫ㄟ職人堅持以下關鍵工法：1. 拆除見底：必須清除所有舊有磁磚與鬆動水泥層，回到 RC 結構面。2. 角隅與管口補強：管周圍以無收縮水泥加固，轉角處埋設玻璃纖維網防止拉裂。3. 三道彈泥施作：底塗、中塗、面塗，每道乾透才施作下一道。4. 48小時試水：貼磚前必須蓄水測試，確保滴水不漏。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "浴室翻修大概需要多少時間？會影響家人洗澡嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "標準的一間式浴室翻修流程約需 7 到 10 個工作天。包含：拆除、水電進場、泥作打底、防水養護、蓄水測試、貼磚與設備安裝。施工期間我們會使用 PE 保護膜隔離粉塵。如果家中有兩間浴室，通常不影響生活；若只有單間，我們會與屋主協調供水時間點，確保晚上基本生活機能。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "如何選擇適合台南老屋的浴室磁磚？預算怎麼抓？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "選擇磁磚首重「安全防滑」。地面建議選用 R10 級以上防滑係數的磁磚，避免淋浴滑倒。牆面則可搭配 30x60 或 60x60 大尺寸磁磚，減少磁磚縫隙方便日後清潔。預算參考：一間標準浴室包含清運、水電、防水與貼磚，連工帶料約在 8-12 萬左右，實際費用取決於磁磚等級與衛浴設備（馬桶/浴櫃）的選擇。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "浴室翻修一定要做乾濕分離嗎？老屋空間不夠怎麼辦？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "乾濕分離能大幅減少浴室發霉與滑倒風險，是現代翻修首選。若老屋空間有限，我們建議採用『一字型拉門』或『單片玻璃屏風』，或者透過優化馬桶與洗臉盆的尺寸配比，在 1 坪左右的空間也能規劃出好用的乾濕分離區。溫ㄟ會現場提供最佳佈局建議。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "完工後有保固嗎？如果漏水了溫ㄟ會負責嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "溫ㄟ對工程品質負責。浴室翻修完工後提供基礎 1 年保固，核心防水工程則提供 3 年安心保障。施工過程中我們已有 48 小時試水測試，若保固期內非地緣變動或人為損壞導致的滲漏，溫ㄟ一定負責到底，不會讓您變『孤兒』。"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-stone-paper text-stone-dark antialiased">
@@ -917,13 +989,19 @@
                 <details
                     class="group bg-white p-6 rounded-sm open:shadow-lg open:ring-1 open:ring-stone-200 transition-all cursor-pointer reveal delay-100">
                     <summary class="flex justify-between items-center font-medium list-none text-stone-800 select-none">
-                        <span class="text-lg">浴室防水要怎麼做才有效？</span>
+                        <span class="text-lg">台南浴室防水重做要怎麼做才真正有效？</span>
                         <i data-lucide="plus"
                             class="w-5 h-5 text-stone-400 group-open:rotate-45 transition-transform duration-300"></i>
                     </summary>
                     <div
                         class="text-stone-500 text-sm leading-relaxed mt-4 pt-4 border-t border-stone-100 animate-slideDown">
-                        <p>有效的防水通常包含三道工序：1) 清除舊有防水層並修補基層；2) 使用高品質彈性水泥進行三道防水施作；3) 進行48小時蓄水測試以確保無滲漏。</p>
+                        <p class="mb-3">有效的防水絕非「塗兩層就好」。溫ㄟ職人堅持以下關鍵工法：</p>
+                        <ul class="space-y-2">
+                            <li><strong>1. 拆除見底</strong>：必須清除所有舊有磁磚與鬆動水泥層，回到 RC 結構面。</li>
+                            <li><strong>2. 角隅與管口補強</strong>：管周圍以無收縮水泥加固，轉角處埋設玻璃纖維網防止拉裂。</li>
+                            <li><strong>3. 三道彈泥施作</strong>：底塗、中塗、面塗，每道乾透才施作下一道。</li>
+                            <li><strong>4. 48小時試水</strong>：貼磚前必須蓄水測試，確保滴水不漏。</li>
+                        </ul>
                     </div>
                 </details>
 
@@ -931,13 +1009,15 @@
                 <details
                     class="group bg-white p-6 rounded-sm open:shadow-lg open:ring-1 open:ring-stone-200 transition-all cursor-pointer reveal delay-100">
                     <summary class="flex justify-between items-center font-medium list-none text-stone-800 select-none">
-                        <span class="text-lg">浴室翻修大概需要多少時間？</span>
+                        <span class="text-lg">浴室翻修大概需要多少時間？會影響家人洗澡嗎？</span>
                         <i data-lucide="plus"
                             class="w-5 h-5 text-stone-400 group-open:rotate-45 transition-transform duration-300"></i>
                     </summary>
                     <div
                         class="text-stone-500 text-sm leading-relaxed mt-4 pt-4 border-t border-stone-100 animate-slideDown">
-                        <p>浴室翻修的時間通常取決於工程範圍和複雜度。一般來說，完整的浴室翻修大約需要7到14天，包括拆除、施工、防水、磁磚貼設和設備安裝等步驟。</p>
+                        <p class="mb-2">標準的一間式浴室翻修流程約需 <strong>7 到 10 個工作天</strong>。包含：拆除、水電進場、泥作打底、防水養護、蓄水測試、貼磚與設備安裝。
+                        </p>
+                        <p>施工期間我們會使用 PE 保護膜隔離粉塵。如果家中有兩間浴室，通常不影響生活；若只有單間，我們會與屋主協調供水時間點，確保晚上基本生活機能。</p>
                     </div>
                 </details>
 
@@ -945,13 +1025,48 @@
                 <details
                     class="group bg-white p-6 rounded-sm open:shadow-lg open:ring-1 open:ring-stone-200 transition-all cursor-pointer reveal delay-200">
                     <summary class="flex justify-between items-center font-medium list-none text-stone-800 select-none">
-                        <span class="text-lg">如何選擇適合的浴室磁磚？</span>
+                        <span class="text-lg">如何選擇適合台南老屋的浴室磁磚？預算怎麼抓？</span>
                         <i data-lucide="plus"
                             class="w-5 h-5 text-stone-400 group-open:rotate-45 transition-transform duration-300"></i>
                     </summary>
                     <div
                         class="text-stone-500 text-sm leading-relaxed mt-4 pt-4 border-t border-stone-100 animate-slideDown">
-                        <p>選擇浴室磁磚時，應考慮防滑性、耐水性和美觀性。建議選擇表面有防滑紋理的磁磚，並確保其適合浴室環境。此外，顏色和風格應與整體設計協調。</p>
+                        <p class="mb-3">選擇磁磚首重「安全防滑」。地面建議選用 <strong>R10 級以上防滑係數</strong> 的磁磚，避免淋浴滑倒。牆面則可搭配 30x60 或 60x60
+                            大尺寸磁磚，減少磁磚縫隙方便日後清潔。</p>
+                        <p><strong>預算參考：</strong>一間標準浴室包含清運、水電、防水與貼磚，連工帶料約在 <strong>8-12 萬</strong>
+                            左右，實際費用取決於磁磚等級與衛浴設備（馬桶/浴櫃）的選擇。</p>
+                    </div>
+                </details>
+
+                <!-- Q4: 空間 -->
+                <details
+                    class="group bg-white p-6 rounded-sm open:shadow-lg open:ring-1 open:ring-stone-200 transition-all cursor-pointer reveal delay-300">
+                    <summary class="flex justify-between items-center font-medium list-none text-stone-800 select-none">
+                        <span class="text-lg">浴室翻修一定要做乾濕分離嗎？老屋空間不夠怎麼辦？</span>
+                        <i data-lucide="plus"
+                            class="w-5 h-5 text-stone-400 group-open:rotate-45 transition-transform duration-300"></i>
+                    </summary>
+                    <div
+                        class="text-stone-500 text-sm leading-relaxed mt-4 pt-4 border-t border-stone-100 animate-slideDown">
+                        <p class="mb-2">乾濕分離能大幅減少浴室發霉與滑倒風險，是現代翻修首選。若老屋空間有限，我們建議採用『一字型拉門』或『單片玻璃屏風』，或者透過優化馬桶與洗臉盆的尺寸配比，在 1
+                            坪左右的空間也能規劃出好用的乾濕分離區。溫ㄟ會根據現場狀況給您最佳佈局建議。</p>
+                    </div>
+                </details>
+
+                <!-- Q5: 保固 -->
+                <details
+                    class="group bg-white p-6 rounded-sm open:shadow-lg open:ring-1 open:ring-stone-200 transition-all cursor-pointer reveal delay-300">
+                    <summary class="flex justify-between items-center font-medium list-none text-stone-800 select-none">
+                        <span class="text-lg">完工後有保固嗎？如果漏水了溫ㄟ會負責嗎？</span>
+                        <i data-lucide="plus"
+                            class="w-5 h-5 text-stone-400 group-open:rotate-45 transition-transform duration-300"></i>
+                    </summary>
+                    <div
+                        class="text-stone-500 text-sm leading-relaxed mt-4 pt-4 border-t border-stone-100 animate-slideDown">
+                        <p class="mb-2">工程品質就是我們的生命。浴室翻修完工後，我們提供基礎 <strong>1 年保固</strong>，核心防水工程則提供 <strong>3
+                                年安心保障</strong>。
+                        </p>
+                        <p>施工過程中我們已有 48 小時試水測試，若保固期內非人為或地變等不可抗力因素導致的問題，溫ㄟ一定負責處理到底，不會讓您變『孤兒』。</p>
                     </div>
                 </details>
 

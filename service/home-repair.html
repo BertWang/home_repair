@@ -192,6 +192,78 @@
             font-family: 'Manrope', sans-serif !important;
         }
     </style>
+    <!-- Schema: Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "居家修繕",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "專業居家修繕服務，包含衛浴配件更換、牆面補漆、門窗調整與各類水電小維修，30年專業經驗。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南居家修繕範圍太小（如換龍頭、補牆漆），溫ㄟ也接嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "接！只要您有需求，再小的修繕都是溫ㄟ服務的機會。我們秉持服務在地鄰里的心，舉凡更換衛浴配件、矽利康重打、牆面局部補漆等小工程我們都願意效勞，歡迎 LINE 照片諮詢。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "居家修繕報價會不會有隱藏費用？估價流程透明嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "報價絕對公開透明。我們的報價包含出工費、材料費與清潔費，並在動工前提供明確報價。我們不玩「先報低價、現場拉抬」的策略。若為小額工程，也會在電話中預先告知基本出工費。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "施工中若發現額外問題（如牆內漏水），會如何處理？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "立即停工告知，絕不擅自追加費用。若拆除後發現隱藏問題，我們會拍照存證並向屋主解釋修復必要性與預算差異，由屋主決定是否一併處理。誠信是我們的底線。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "小工程也有保固嗎？完工後有問題找得到人嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有的，所有經手工程溫ㄟ都負責到底。凡經施作項目皆享有職人責任保固。只要在保固期內出現非人為瑕疵，我們承諾快速回訪修正。我們長期深耕台南，溝通管道隨時保持暢通。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "預約免費到府勘查，台南哪些地區有提供服務？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "服務區域涵蓋台南全區。核心區域包含東區、永康、新化、善化、南科周邊、安平、中西區等。若您位於其他行政區也歡迎諮詢，我們會視排程盡量為您提供最即時的服務。"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-stone-paper text-stone-dark antialiased">
@@ -1014,103 +1086,109 @@
             </header>
 
             <div class="space-y-4 mb-16">
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal">
+                <!-- FAQ 01 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>小修繕也願意接嗎？最低收費是多少？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>台南居家修繕範圍太小（如換龍頭、補牆漆），溫ㄟ也接嗎？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        當然願意！我們<strong class="text-stone-900">不挑案件大小</strong>，換個燈泡、裝個毛巾架都沒問題。最低收費依工項而定，一般小修繕約 <strong
-                            class="text-stone-900">NT$ 600-800 起</strong>（含工資與基本材料）。實際費用會在到府評估時告知，確認後才施工。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>接！只要您有需求，再小的修繕都是溫ㄟ服務的機會。</strong>
+                            <br><br>
+                            很多屋主擔心工程太小沒人理。溫ㄟ團隊秉持「服務在地鄰里」的心，舉凡更換衛浴配件、矽利康重打、牆面局部補漆或開關面板更換，我們都願意為您效勞。小問題若不處理，往往會演變成大麻煩。歡迎隨時
+                            LINE 照片給我，我會直接線上給您評估。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-50">
+                <!-- FAQ 02 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-100">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>到府評估真的免費嗎？會不會有隱藏費用？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>居家修繕報價會不會有隱藏費用？估價流程透明嗎？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">完全免費</strong>，不收任何費用！我們會到現場查看、測量、評估並提供報價。就算您評估後決定不做，也<strong
-                            class="text-stone-900">不會收取任何車馬費或評估費</strong>。這是我們對客戶的承諾。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>報價絕對公開透明，這是溫ㄟ職人的底線。</strong>
+                            <br><br>
+                            我們的報價包含：出工費、材料費與清潔費。在正式施工前，我會提供明確的報價內容，經您確認後才動工。我們不玩「先報低價、現場拉抬」的策略。若為超小額工程，我們也會在電話中預先告知基本出工報價。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-100">
+                <!-- FAQ 03 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-200">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>IKEA 家具組裝怎麼收費？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>施工中若發現額外問題（如牆內漏水），會如何處理？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        依家具複雜度計費。簡單家具（如層板、小書櫃）約 <strong class="text-stone-900">NT$ 800-1,500</strong>；中型家具（如衣櫃、床架）約
-                        <strong class="text-stone-900">NT$ 2,000-3,500</strong>；大型系統櫃約 <strong
-                            class="text-stone-900">NT$ 4,000 起</strong>。建議先傳照片或型號，我們可以更精準報價。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>立即停工告知，絕不擅自追加費用。</strong>
+                            <br><br>
+                            居家修繕常在拆除後發現額外的隱藏問題。若遇此狀況，我們會立即拍照存證，向屋主解釋修復的必要性與預算差異，由屋主決定是否一併處理。誠信，比多賺一點錢更有價值。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
+                <!-- FAQ 04 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-300">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>材料是我自己準備，還是你們提供？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>小工程也有保固嗎？完工後有問題找得到人嗎？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">兩種方式都可以</strong>。若您已購買材料（如燈具、五金配件），我們可以<strong
-                            class="text-stone-900">純工資施工</strong>。若希望我們代購，我們會使用<strong
-                            class="text-stone-900">品質穩定的品牌材料</strong>（如國際牌開關、東亞照明），價格公開透明，絕不賺材料費差價。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>有的，所有經手工程溫ㄟ都負責到底。</strong>
+                            <br><br>
+                            凡經溫ㄟ團隊施作的項目，皆享有職人責任保固。只要在保固期內出現非人為因素瑕疵，我們承諾快速回訪並修正。我們長期深耕台南，LINE 與手機永遠保持通暢。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-200">
+                <!-- FAQ 05 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-400">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>保固範圍包含哪些？如果出問題怎麼辦？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>預約免費到府勘查，台南哪些地區有提供服務？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        提供<strong class="text-stone-900">一年施工保固</strong>。若因<strong
-                            class="text-stone-900">施工品質問題</strong>（如固定不牢、接線不良等）導致瑕疵，我們負責<strong
-                            class="text-stone-900">免費維修或更換</strong>。但不包含人為破壞、自然耗損或非我方施工範圍的問題。有問題隨時聯絡，我們會盡快處理。
-                    </div>
-                </details>
-
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-250">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>施工需要多久？會很吵很髒嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        依工項而定。<strong class="text-stone-900">小修繕（如換燈、裝層板）</strong>約 1-2 小時；<strong
-                            class="text-stone-900">家具組裝</strong>約 2-4 小時；<strong class="text-stone-900">牆面修補</strong>約
-                        1-2 天。我們會盡量降低噪音，並在施工區域鋪設防護布，完工後<strong class="text-stone-900">徹底清潔現場</strong>，保持整潔。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>目前服務區域涵蓋台南全區服務。</strong>
+                            <br><br>
+                            核心區域包含：東區、永康、新化、善化、南科周邊、安平、中西區等。若您位於其他行政區，也歡迎先透過 LINE 諮詢照片，我們會視排程盡量為您提供最即時的居家修繕服務。
+                        </p>
                     </div>
                 </details>
             </div>

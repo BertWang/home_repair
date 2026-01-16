@@ -190,6 +190,78 @@
             font-family: 'Manrope', sans-serif !important;
         }
     </style>
+    <!-- Schema: Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "水電工程",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "專業水電維修與工程，包含老屋配線更新、加壓馬達安裝、管路疏通與衛浴設備安裝，30年專業經驗。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南老屋水管太舊、水壓不足，一定要裝加壓馬達嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "加壓馬達是改善生活品質的利器，但老舊管路需慎選。溫ㄟ建議安裝安裝前先評估管材，推薦「恆壓變頻馬達」，壓力輸出平穩，對老管路衝擊最小。或在局部（如熱水器端）加裝小型泵精準解決。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "水龍頭緊關後還是在滴水？為什麼溫ㄟ不建議只更換膠墊片？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "滴水多因內部「陶瓷閥芯」磨損。現代龍頭多為一體設計，修補工料成本有時接近換新。溫ㄟ建議換裝全新的 SUS304 不鏽鋼龍頭，耐腐蝕且保障飲水健康，一次解決後續漏水隱憂。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "浴室排水孔傳出異味或有小黑蟲噴出？該如何從根本解決？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "這通常是管線內「存水彎」失效。解決方案是改裝具備「自動閉合」功能或水封式的防臭落水頭，物理性隔絕。或針對長期積聚的油脂毛髮進行專業機器疏通，從源頭清除異味滋生點。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "加台南老宅的水管多久該更換？塑膠管與不鏽鋼管有何優劣？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "屋齡超過 25 年，尤其是浴室翻修時強烈建議更換。傳統 PVC 易脆化、鐵管易生鏽。溫ㄟ目前全面採用 SUS304 不鏽鋼壓接管，耐高溫且不鏽蝕，一次解決未來數十年的滲漏隱憂。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "家裡突然斷電或沒水了！找水電師傅前溫ㄟ教您如何自救？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "先確認鄰房是否停電停水以判斷範圍。巡視電箱是否有開關跳脫，若推不回去切勿暴力操作。檢查頂樓馬達是否過熱自保。若排查後仍無解，請立即聯繫溫ㄟ，我們提供台南地區快速到府排解服務。"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-stone-paper text-stone-dark antialiased">
@@ -1125,89 +1197,125 @@
                 <h2 class="text-3xl md:text-4xl font-medium tracking-tight">水電施工常見疑問</h2>
             </header>
 
-            <div class="space-y-4 mb-16">
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>老屋水電一定要全部重拉嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        不一定。若<strong class="text-stone-900">屋齡超過 30
-                            年、電線外皮硬化龜裂、配電箱無漏電保護</strong>，建議全面更新。若只是部分插座不足或迴路過載，可採「局部增設」方式。我們會先進行現場檢測，評估是否需要全面重拉，給您最經濟的方案。
-                    </div>
-                </details>
+            <!-- FAQ 01 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>台南老屋水管太舊、水壓不足，一定要裝加壓馬達嗎？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed">
+                        <strong>加壓馬達是改善生活品質的利器，但必須「量力而為」。</strong>
+                        <br><br>
+                        老舊公寓的水管若已鏽蝕變薄，突然承受過強的壓力確實有「爆管」噴水的風險。溫ㄟ的水電專業建議：
+                        <br><br>
+                        •
+                        <strong>壓力適配</strong>：安裝前溫ㄟ會先評估屋齡與管材。推薦採用<strong>「恆壓變頻馬達」</strong>，它的壓力輸出平穩，不會像傳統馬達忽大忽小，對老管路的衝擊最小。<br>
+                        • <strong>局部加壓</strong>：若只是想洗澡熱水更舒服，可在熱水器端加裝靜音小型加壓泵，精準解決問題。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-50">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>什麼是「漏電斷路器」（ELCB）？一定要裝嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        漏電斷路器是<strong class="text-stone-900">生命安全的最後一道防線</strong>。當電器漏電、人體觸電時，ELCB 會在 0.1
-                        秒內切斷電源，避免電擊死亡。依《用戶用電設備裝置規則》，浴室、廚房等潮濕場所<strong
-                            class="text-stone-900">強制安裝</strong>漏電保護，建議全戶配電箱都要安裝。
-                    </div>
-                </details>
+            <!-- FAQ 02 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-100">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>水龍頭緊關後還是在滴水？為什麼溫ㄟ不建議只更換膠墊片？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed">
+                        <strong>滴水通常代表內部「陶瓷閥芯」已經磨損或龜裂。</strong>
+                        <br><br>
+                        許多屋主想省錢只更換橡膠墊片，但現代龍頭多為陶瓷式閥芯，磨損後很難單修零件。
+                        <br><br>
+                        • <strong>CP值考量</strong>：修補故障龍頭的工資加上材料，往往與換一個全新的「SUS304不鏽鋼龍頭」差不遠。新龍頭更耐噴霧鹽蝕，且保障無鉛飲水健康。<br>
+                        • <strong>一勞永逸</strong>：溫ㄟ換裝的零件，皆享有非人為損壞的一年保固。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-100">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>冷氣為什麼要拉獨立迴路？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        冷氣啟動電流大（約 10-15A），若與插座、照明共用迴路，容易造成<strong class="text-stone-900">過載跳電</strong>。而且冷氣使用 220V
-                        電壓，必須使用<strong class="text-stone-900">5.5mm² 以上粗線</strong>與專用 NFB，才能確保安全與穩定。
-                    </div>
-                </details>
+            <!-- FAQ 03 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-200">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>浴室排水孔傳出異味或有小黑蟲噴出？該如何從根本解決？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed">
+                        <strong>這通常是管線內「存水彎」乾涸、失效或管路配置缺失。</strong>
+                        <br><br>
+                        異味與蛾蚋（小黑蟲）會順著管道滲入客廳。溫ㄟ提供水電解方：
+                        <br><br>
+                        • <strong>更換落水頭</strong>：改裝具備「自動閉合」功能或水封式的防臭落水頭，在沒水流時物理性隔絕。
+                        • <strong>管路疏通</strong>：長期累積的油脂毛髮是源頭。專業機器疏通可以清除病蝕，保持管路通暢清爽。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>PPR 管和 PVC 管有什麼差別？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">PPR 管（聚丙烯管）</strong>用於給水，耐高溫（可達 95°C）、耐壓、無毒無味，適合冷熱水管。<strong
-                            class="text-stone-900">PVC 管</strong>用於排水或電線管，較便宜但不耐熱。建議給水管全用 PPR 管或不鏽鋼管，確保水質與耐用度。
-                    </div>
-                </details>
+            <!-- FAQ 04 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-300">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>加台南老宅的水管多久該更換？塑膠管與不鏽鋼管有何優劣？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed">
+                        <strong>屋齡超過 25 年，尤其是浴室翻修時，強烈建議「明管改暗管」或全換。</strong>
+                        <br><br>
+                        • <strong>傳統PVC/鐵管</strong>：冷水管（PVC）易脆化；熱水管（鐵管）內部會鏽蝕結垢，導致水量變小、甚至流出鐵鏽水。<br>
+                        • <strong>溫ㄟ標準工法</strong>：我們現在全面採用 <strong>SUS304 不鏽鋼壓接管</strong>
+                        並批覆保溫層。耐高溫、不生鏽、不斷裂，一次解決未來的漏水隱憂。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-200">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>水電施工要多久？會很吵很髒嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">局部增設</strong>約 1-2 天；<strong
-                            class="text-stone-900">全屋重拉</strong>約 7-14 天（依坪數而定）。打鑿開槽確實會有粉塵與噪音，但我們會使用<strong
-                            class="text-stone-900">集塵打鑿機</strong>降低粉塵，每日收工前清潔現場，將影響降到最低。
-                    </div>
-                </details>
-            </div>
+            <!-- FAQ 05 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-400">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>家裡突然斷電或沒水了！找水電師傅前溫ㄟ教您如何自救？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed">
+                        先別急著打電話，請按照溫ㄟ的「黃金排查」步驟：
+                        <br><br>
+                        1. <strong>確認鄰房</strong>：看是整排停電停水，還是只有自家問題。<br>
+                        2. <strong>巡視電箱</strong>：確認是否有無熔絲開關（NFB）跳脫。若跳脫後推不回去，切勿暴力硬推，這代表管路有短路風險。<br>
+                        3. <strong>查看馬達</strong>：確認頂樓馬達是否處於過熱自保狀態，可嘗試關閉電源 10 分鐘後重啟。<br><br>
+                        若排查後仍無解，請立即聯繫溫ㄟ，我們提供台南地區快速到府排解服務。
+                    </p>
+                </div>
+            </details>
 
             <!-- 最終CTA -->
             <div class="bg-stone-900 text-white rounded-sm p-12 text-center reveal">

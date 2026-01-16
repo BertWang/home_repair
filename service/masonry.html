@@ -41,6 +41,78 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
     <!-- Base CSS -->
     <link rel="stylesheet" href="../assets/css/base.css">
+    <!-- Schema: Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "泥作工程",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "專業泥作土水工程，包含砌磚、粉光打底、地坪整平與磁磚鋪設，30年老牌師傅經驗，品質紮實。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南新砌磚牆為什麼會有細微裂縫？這算施工不良嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "這通常是水泥砂漿乾縮的正常物理現象，並非施工不良。新砌牆面在水分蒸發時會產生微量位移。溫ㄟ團隊會採取植筋補強、在粉刷層加入抗裂網，並落實灑水養護，將裂縫機率降到最低。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "「泥作粉刷」跟「油漆批土」差別在哪？溫ㄟ的施工流程是？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "泥作主打「平整與體質」，油漆主打「細緻與美觀」。溫ㄟ堅持採用雷射水平儀控點，確保牆面垂直。泥作基礎打得好（垂直且平整），後續油漆才不容易龜裂脫落，這是一切裝修的根基。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "浴室洩水坡度總是積水？溫ㄟ有什麼測量標準？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "溫ㄟ堅持「標準坡比 (1:100)」。施工時利用水平儀精準抓出排水口最低點，周邊磁磚向內傾斜。完工後會進行大水量沖淋測試，確保每一滴水都能順暢流向排水孔，絕不留水坑。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "泥作工程進場前，屋主需要做哪些準備？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "泥作屬水濕作業，請屋主先確認水電管線已變更完成、磁磚型號已選定（影響打底厚度），並預先向鄰居打聲招呼，因為攪拌水泥與搬運磚頭噪音較大。其餘的保護與清潔交給我們處理。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "漏水維修後的泥作補修會有色差嗎？溫ㄟ如何處理美觀問題？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "局部補修一定會有新舊水泥呈色差異。解決方案是溫ㄟ會盡量在補修後進行大面積批土與面漆重刷，將邊界過渡自然。若是外牆，建議整面噴塗防水漆，不僅解決色差，更能提升整體防水效能。"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-stone-paper text-stone-dark antialiased">
@@ -931,118 +1003,127 @@
                 <h2 class="text-3xl md:text-4xl font-medium tracking-tight">泥作施工常見疑問</h2>
             </header>
 
-            <div class="space-y-4 mb-16">
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>為什麼新做的牆面會有細微裂紋？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        水泥在乾燥收縮過程難免會產生細紋（髮絲紋），這屬於物理自然現象。但如果是大於 2mm 的裂縫，可能是砂漿比例不對或養護不足。我們嚴格執行 <strong
-                            class="text-stone-900">7 天保濕養護</strong>，並添加抗裂纖維，將開裂風險降到最低。
-                    </div>
-                </details>
+            <!-- FAQ 01 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>台南新砌磚牆為什麼會有細微裂縫？這算施工不良嗎？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>這通常是水泥砂漿乾縮的正常物理現象，並非施工不良。</strong>
+                        <br><br>
+                        新砌牆面在水分蒸發過程中會產生微量位移，進而形成髮絲紋或交接處裂縫。溫ㄟ團隊會採取以下預防措施：
+                        <br><br>
+                        • <strong>植筋與抗裂網</strong>：在牆體交接處埋入植筋，並在粉刷層加入抗裂纖維網，大幅降低裂縫機率。<br>
+                        • <strong>落實養護</strong>：堅持水泥粉刷後進行適當噴水養護，讓砂漿強度緩慢釋放。<br><br>
+                        如果是結構性大裂縫（超過 0.3mm），我們則會根據現場狀況進行補強，請屋主務必及時通知我們。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-50">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>水泥粉光和油漆批土有什麼不同？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">水泥粉光</strong>是泥作的最後一道工序，呈現水泥原始質感；<strong
-                            class="text-stone-900">批土</strong>則是油漆的前置作業，讓牆面更細緻。若要刷漆，泥作只需做到「打底粉刷」即可；若要走工業風水泥質感，則需指定「水泥粉光」工法。
-                    </div>
-                </details>
+            <!-- FAQ 02 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-100">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>「泥作粉刷」跟「油漆批土」差別在哪？溫ㄟ的施工流程是？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>泥作主打「平整與體質」，油漆主打「細緻與美觀」。</strong>
+                        <br><br>
+                        • <strong>泥作粉刷</strong>：使用水泥砂漿，將粗糙的磚牆抹平至「粗胚」或「細胚」。這關乎牆體垂直度與強度。<br>
+                        • <strong>油漆批土</strong>：使用批土材料填補細微毛孔，讓牆面達到如蛋殼般的光滑感。<br><br>
+                        溫ㄟ堅持採用<strong>「雷射水平儀」</strong>控點，確保牆面垂直且垂直。唯有泥作基礎打得好，後續油漆才不容易龜裂脫落。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-100">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>磁磚為什麼會「彭管」（空鼓）？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        主要原因有三：1. 基層太乾吸走水泥水分（導致黏著力下降）；2. 黏著劑塗抹不均；3. 沒有留伸縮縫（熱脹冷縮擠壓）。我們堅持<strong
-                            class="text-stone-900">基層潑水濕潤</strong>、<strong
-                            class="text-stone-900">雙面塗膠</strong>（磚背+牆面）工法，確保滿漿率 100%。
-                    </div>
-                </details>
+            <!-- FAQ 03 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-200"
+                open>
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>浴室洩水坡度總是積水？溫ㄟ有什麼測量標準？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>洩水波度是泥作的必修課！</strong>
+                        <br><br>
+                        很多師傅只憑感覺，但溫ㄟ堅持<strong>「標準坡比 (1:100)」</strong>：
+                        <br><br>
+                        • <strong>科學測量</strong>：利用水平儀精準抓出排水口最低點，周邊磁磚向排水口傾斜。<br>
+                        • <strong>大水量實測</strong>：在貼磚完成並清潔後，我們會進行大水量沖淋測試，確保每一滴水都能順暢流向排水孔，絕不留水坑。<br><br>
+                        「洗澡不積水，才是真正的職人施工。」
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>泥作進場前需要注意什麼？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        最重要的是<strong
-                            class="text-stone-900">確認水電管線已埋設完畢</strong>且試壓無誤。門窗框也需先立好，泥作才能進行「崁縫」。順序錯了會導致打鑿修補，破壞結構也增加費用。
-                    </div>
-                </details>
+            <!-- FAQ 04 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-300">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>泥作工程進場前，屋主需要做哪些準備？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        泥作屬於水濕作業，環境較為髒亂。請屋主協助以下幾點：
+                        <br><br>
+                        1. <strong>水電先行</strong>：確認管線已變更完成並打除管槽。<br>
+                        2. <strong>確認預算與樣式</strong>：如磁磚型號、門框尺寸等，這些會影響泥作打底的高度與厚度。<br>
+                        3. <strong>鄰里告知</strong>：泥作施工（特別是攪拌水泥與搬運磚頭）聲音大，建議預先向鄰居打聲招呼。<br><br>
+                        其餘的保護與清潔工作，就交給溫ㄟ團隊專業打理。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>粉光後多久可油漆？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        48小時溼度降至標準後，直接油漆。建議使用防霉漆
-                    </div>
-                </details>
-
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>浴室坡度標準？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        1/50-1/100朝排水孔，蓄水測試24小時無滲漏
-                    </div>
-                </details>
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>抓漏怎麼修？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        清除舊層，重做彈性水泥防水+熱熔毯，10,000-15,000/坪
-                    </div>
-                </details>
-            </div>
-
-            <!-- 最終CTA -->
+            <!-- FAQ 05 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-400">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>漏水維修後的泥作補修會有色差嗎？溫ㄟ如何處理美觀問題？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>坦白說，局部補修一定會有新舊色差。</strong>
+                        <br><br>
+                        • <strong>原因</strong>：水泥砂比例、乾燥時間與原本牆面的灰塵積累都會影響呈色。<br>
+                        •
+                        <strong>解決方案</strong>：溫ㄟ會盡量在補修後進行大面積的批土與面漆重刷，將邊界過渡自然。若是外牆，我們會建議整面重新噴塗防水漆，不僅解決色差，更能提升整體防水效能。<br><br>
+                        美觀與實用並重，是我們對細節的堅持。
+                    </p>
+                </div>
+            </details>
             <div class="bg-stone-900 text-white rounded-sm p-12 text-center reveal">
                 <h3 class="text-2xl md:text-3xl font-bold mb-4">基礎沒打好，裝潢再美都枉然</h3>
                 <p class="text-stone-300 mb-8 max-w-2xl mx-auto">

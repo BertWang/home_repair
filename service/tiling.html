@@ -44,10 +44,71 @@
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "老屋翻新工程",
-      "provider": { "@type": "LocalBusiness", "name": "溫ㄟ宅修", "telephone": "0970-356-105" },
-      "areaServed": { "@type": "Place", "name": "台南市" },
-      "description": "台南透天厝、公寓老屋翻新。水電重拉、格局調整、泥作整修。"
+      "serviceType": "貼磚工程",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "專業磁磚鋪設工程，包含大板磚、木紋磚、浴室地壁磚鋪設，使用調平系統確保極致平整。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南浴室磁磚一定要留縫嗎？我想做「無縫施工」可以嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "絕對要留縫。所謂「無縫」其實是極細縫施工，風險極高。台南氣候多變，熱脹冷縮容易造成磁磚受壓澎管或爆裂。溫ㄟ堅持標準留縫（1.5mm-2mm），並搭配與磁磚顏色相近的美縫劑，達到美觀與安全兼顧。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "為什麼磁磚貼完會有高低差？這是施工手藝問題還是磁磚瑕疵？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "高低差由磁磚品質與施工技術共同決定。大尺寸磁磚難免有物理翹曲，溫ㄟ職人堅持使用「磁磚平整器」調平系統，在黏著劑未乾前校正，配合雷射水平儀控準，將高低差控制在極致平整範圍。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "浴室磁磚怎麼選最安全？「防滑係數 R10」是什麼意思？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "安全是首要考量。R9-R10 適合一般乾燥空間，R11-R12 抓地力更強，適合淋浴區或有長輩的環境。我們會提供樣板讓您實際觸摸，根據清潔難易度與安全性推薦最適合您的止滑磚。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "舊磁磚不拆直接貼新的（疊貼工法）可行嗎？比全拆重做更好嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "疊貼看似省錢但隱患不少。前提是舊磚必須牢固，且會增加地板厚度導致門片卡住或高低差，更大的風險是無法重做防水。溫ㄟ強烈建議老屋翻新特別是浴室應「打掉重做」，重做防水層才是長久之道。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "貼完磁磚的填縫泥髒了、發霉了怎麼辦？溫ㄟ推薦什麼填縫劑？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "傳統水泥填縫劑易吸水發霉。溫ㄟ推薦奈米防霉填縫劑或頂級「環氧樹脂美縫劑」。環氧樹脂完全不吸水、防霉且顏色豐富，清潔只需輕抹即淨，能讓磁磚維持 10 年亮麗。"
+          }
+        }
+      ]
     }
     </script>
     <link id="all-fonts-link-font-geist" rel="stylesheet"
@@ -1294,69 +1355,121 @@
             </header>
 
             <div class="space-y-4 mb-16">
-                <details class="group bg-stone-50 border border-stone-200 rounded-sm overflow-hidden reveal">
+                <!-- FAQ 01 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-100 transition-colors">
-                        <span>為什麼你堅持「雙面塗膠」工法？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>台南浴室磁磚一定要留縫嗎？我想做「無縫施工」可以嗎？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        很多師傅只在牆面塗膠（單面工法），但磁磚背面常有灰塵或油脂，黏著力會大打折扣。我堅持<strong
-                            class="text-stone-900">磁磚背面與牆面都塗膠</strong>，確保滿漿率 100%，才能徹底避免空鼓脫落。這是阿公教我的，也是我對每個屋主的承諾。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>絕對要留縫，所謂「無縫」其實是「極細縫」施工，且風險極高。</strong>
+                            <br><br>
+                            台南氣候多變，磁磚與水泥砂漿都會隨溫度產生「熱脹冷縮」。若完全不留縫，磁磚受壓後容易產生「澎管（空鼓）」或爆裂脫落。溫ㄟ施工堅持：
+                            <br><br>
+                            • <strong>標準留縫</strong>：地磚依材質建議留 2mm 以上，壁磚則視風格留 1.5mm-2mm。<br>
+                            • <strong>美觀方案</strong>：如果您追求視覺統一，溫ㄟ推薦選用與磁磚顏色相近的「樹脂填縫劑」或高級「美縫劑」，能達到接近一體的精緻感，且兼顧結構安全。<br><br>
+                            我們堅持安全第一，美觀則透過專業的對縫技術與填縫材料來達成。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-stone-50 border border-stone-200 rounded-sm overflow-hidden reveal delay-50">
+                <!-- FAQ 02 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-100">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-100 transition-colors">
-                        <span>磁磚縫寬度要留多少才對？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>為什麼磁磚貼完會有高低差？這是施工手藝問題還是磁磚瑕疵？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        一般磁磚建議<strong class="text-stone-900">留 2-3mm 縫寬</strong>，大理石或拋光石英磚可留
-                        1-2mm。縫寬太小會因熱脹冷縮擠壓而龜裂，太大則容易藏污納垢。我使用十字定位器確保每條縫都一致，誤差控制在 ±1mm 內。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>高低差（翹曲）由磁磚品質與施工技術共同決定自有標準。</strong>
+                            <br><br>
+                            1. <strong>磁磚特性</strong>：大尺寸磁磚（如 60x120cm）在燒製過程中難免會有微小的物理翹曲。若磁磚本身平整度太差，後續施工難度會大幅提升。<br>
+                            2.
+                            <strong>溫ㄟ職人輔助</strong>：我們堅持使用<strong>「磁磚平整器（調平系統）」</strong>，在黏著劑未乾前校正每一塊磚的交接處，確保表面平順。<br>
+                            3. <strong>滿漿敲擊</strong>：抹漿是否均勻、敲擊力道是否一致都有影響。溫ㄟ團隊會預先檢驗磁磚品質，並配合雷射水平儀與調平系統，將高低差控制在極致平整。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-stone-50 border border-stone-200 rounded-sm overflow-hidden reveal delay-100">
+                <!-- FAQ 03 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-200">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-100 transition-colors">
-                        <span>浴室地磚鋪設要注意什麼？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>浴室磁磚怎麼選最安全？「防滑係數 R10」是什麼意思？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        最重要的是<strong class="text-stone-900">洩水坡度</strong>！標準是 1/50（每 1 公尺下降
-                        2cm），水才會順利流向落水頭。我使用雷射水平儀精準抓坡度，確保洗完澡不積水、不發霉。另外，浴室磁磚建議選<strong class="text-stone-900">止滑係數 >
-                            0.5</strong> 的防滑磚。
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>安全是居家修繕的首要考量。</strong> 台南浴室翻修我們強烈建議選購符合止滑規格的地磚：
+                            <br><br>
+                            • <strong>R9-R10</strong>：適合一般乾燥空間或輕微潮濕區域，清潔較容易。<br>
+                            • <strong>R11-R12</strong>：抓地力更強，表面觸感較粗，適合家中有長輩、小孩或淋浴區，能有效預防滑倒。<br>
+                            • <strong>溫ㄟ貼心提醒</strong>：止滑磚雖然安全，但表面孔隙較多，清潔時建議搭配刷具比較省力。我們會在挑磚階段提供樣板讓您實際觸摸，根據您的需求推薦平衡點。
+                        </p>
                     </div>
                 </details>
 
-                <details class="group bg-stone-50 border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
+                <!-- FAQ 04 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-300">
                     <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-100 transition-colors">
-                        <span>貼完磁磚多久可以使用？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>舊磁磚不拆直接貼新的（疊貼工法）可行嗎？比全拆重做更好嗎？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
                             </path>
                         </svg>
                     </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">壁磚</strong>（薄漿工法）：24 小時後可填縫，48 小時後可正常使用。<br>
-                        <strong class="text-stone-900">地磚</strong>（軟底工法）：需靜置 3 天讓水泥硬化，填縫後再等 24 小時才能踩踏。<br>
-                        千萬不要急著踩踏，否則磁磚會下陷或空鼓！
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            <strong>這看似省錢省工，但其實「隱患」不少。</strong>
+                            <br><br>
+                            • <strong>結構檢測</strong>：疊貼的前提是舊磚必須百分之百「牢固且平整」。若舊磚已有空鼓，新磚貼上去只會一起脫落，白忙一場。<br>
+                            • <strong>細節缺失</strong>：疊貼會增加地板厚度（約 1.5-2cm），可能導致門片卡住或門口出現高低落差。更大的風險是無法重新處理「防水層」。<br>
+                            • <strong>溫ㄟ建議</strong>：老屋翻新特別是浴室，強烈建議「打掉重做」。徹底剷除至紅磚見底、重做防水層，才是根治漏水與提升磁磚抓附力的王道。
+                        </p>
+                    </div>
+                </details>
+
+                <!-- FAQ 05 -->
+                <details
+                    class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-400">
+                    <summary
+                        class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                        <span>貼完磁磚的填縫泥髒了、發霉了怎麼辦？溫ㄟ推薦什麼填縫劑？</span>
+                        <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </summary>
+                    <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                        <p class="text-stone-600 leading-relaxed">
+                            傳統水泥填縫劑因孔隙大，容易吸水造成發霉或變黑。溫ㄟ推薦升級方案：
+                            <br><br>
+                            1. <strong>奈米防霉填縫劑</strong>：密度較高，吸水率比普通水泥低，延緩發霉時間。<br>
+                            2. <strong>環氧樹脂美縫劑</strong>：這是目前的頂級方案，完全不吸水、表面光滑如塑膠、不發霉、顏色豐富。清潔時只需輕輕一抹即淨。<br><br>
+                            選對材料能讓您的廚房、浴室磁磚維持 10 年亮麗。溫ㄟ會在報價單提供不同填縫材料的評估，讓您依預算做選擇。
+                        </p>
                     </div>
                 </details>
             </div>

@@ -193,6 +193,78 @@
     </style>
     <!-- Config/Styles -->
     <link rel="stylesheet" href="../assets/css/base.css">
+    <!-- Schema: Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "老屋翻新",
+      "provider": {
+        "@type": "HomeAndConstructionBusiness",
+        "name": "溫ㄟ宅修",
+        "telephone": "0970-356-105",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "新化區",
+          "addressRegion": "台南市",
+          "addressCountry": "TW"
+        }
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "台南市"
+      },
+      "description": "提供台南地區老屋翻新服務，包含結構補強、泥作打底、水電重拉與防水工程，20年專業經驗。"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "台南老屋翻新一定要全部拆除見底嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "對於 30 年以上的老屋，我們強烈建議「拆除至紅磚見底」。這能讓隱患現形（龜裂、滲漏）、確保新防水層的抓附力，並根治壁癌。溫ㄟ職人的原則是「要做就做到徹底」，這才是對屋主最負責任的做法。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "老屋翻修期間我們可以住在裡面嗎？還是建議搬出去？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "全屋翻新時，我們誠懇建議屋主遷出。除了健康（粉塵噪音）與安全（斷水斷電）考量外，淨空現場也能讓施工效率更高，縮短工期。若無法搬離，溫ㄟ會分區施工並加強防塵，但這會拉長工期與增加保護成本。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "舊屋翻新工期通常要多久？溫ㄟ如何控管進度？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "以台南常見的 25 坪左右物業為例，全屋翻新約需 2.5 至 4 個月。溫ㄟ團隊使用 LINE 群組每日匯報，配合明確的施工進度表，讓您人不在現場也能即時掌握進度，不怕工程爛尾。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "老屋翻修最常見的「隱藏地雷」與追加預算有哪些？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "常見地雷包括拆除後發現的結構龜裂、鋼筋鏽蝕或非法增建問題。溫ㄟ在初期估價時會憑豐富經驗預告潛在問題。所有追加項必先經過雙方確認簽署變更單，絕對不玩先低價標、後高價加的文字遊戲。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "改建需要申請建築執照或室內裝修許可嗎？溫ㄟ可以代辦嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "若涉及結構體變更、外牆立面更改則需申請。溫ㄟ合作有專業建築師團隊可協助代辦。合規合法施工，才是長久居住的保障。歡迎聯繫進行專業諮詢。"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="bg-stone-paper text-stone-dark antialiased">
@@ -913,24 +985,7 @@
                     </svg>
                     老屋翻新每坪單價參考
                 </h3>
-                <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Old House Renovation",
-      "provider": {
-        "@type": "HomeAndConstructionBusiness",
-        "name": "溫ㄟ宅修",
-        "url": "https://bertwang.github.io/home_repair/"
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Tainan"
-      },
-      "description": "提供台南地區老屋翻新服務，包含結構補強、泥作打底、水電重拉與防水工程。",
-      "url": "https://bertwang.github.io/home_repair/service/old-house-renovation.html"
-    }
-    </script>
+
                 <div class="overflow-x-auto">
                     <table class="w-full text-left border-collapse">
                         <thead>
@@ -1075,107 +1130,126 @@
                 <h2 class="text-3xl md:text-4xl font-medium tracking-tight">關於老屋翻新，您可能想問</h2>
             </header>
 
-            <div class="space-y-4 mb-16">
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>老屋翻新一定要全部打掉重做嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">不一定。</strong>我們會先進行全屋結構檢測（紅外線熱像儀 +
-                        混凝土回彈儀），評估哪些部分需要重做、哪些可以保留。例如結構穩固的 RC 牆、狀況良好的管槽、實木門窗都可保留翻新，依實際狀況提供最經濟的方案，<strong
-                            class="text-stone-900">可節省 20-30% 拆除成本</strong>。
-                    </div>
-                </details>
+            <!-- FAQ 01 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>台南老屋翻新一定要全部拆除見底嗎？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>對於 30 年以上的老屋，我們強烈建議「拆除至紅磚見底」。</strong>
+                        <br><br>
+                        雖然這會增加初期拆除與廢棄物搬運的成本，但有以下關鍵原因：
+                        <br><br>
+                        1. <strong>隱患現形</strong>：只有拆到底，才能看清楚結構是否有龜裂、管線是否有滲漏隱憂。<br>
+                        2. <strong>防水抓附力</strong>：新的防水層與粉刷層必須直接在紅磚或結構體上施作，抓附力才最強，避免日後空鼓掉落。<br>
+                        3. <strong>壁癌根治</strong>：老屋壁癌往往深植水泥層，若不徹底移除，新的漆面很快就會再次崩壞。<br><br>
+                        溫ㄟ職人的原則是「要做就做到徹底」，這才是對屋主最負責任的做法。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-50">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>翻新期間可以住在屋內嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">一般不建議。</strong>拆除、泥作、油漆階段會產生粉塵與氣味（我們使用 PE
-                        防塵膜隔離），且水電暫停影響生活機能。建議暫時搬離，讓工程順利進行，完工後再搬入乾淨舒適的新家。若有特殊需求可分區施工，但工期會拉長。
-                    </div>
-                </details>
+            <!-- FAQ 02 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-100">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>老屋翻修期間我們可以住在裡面嗎？還是建議搬出去？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        如果是<strong>全屋翻新（包含水電、泥作、拆除）</strong>，我們誠懇建議屋主先行遷出。
+                        <br><br>
+                        • <strong>健康考量</strong>：拆除階段粉塵與噪音極大，生活品質極差且影響呼吸道。<br>
+                        • <strong>安全考量</strong>：施工期間斷水斷電是常態，對於老人或小孩有安全隱憂。<br>
+                        • <strong>效率考量</strong>：淨空現場能讓師傅大刀闊斧施工，不用縮手縮腳，反而能縮短工期。<br><br>
+                        若真的無法搬離，溫ㄟ會盡量採取「分區施工」並做好嚴密防塵，但這會大幅拉長工期與增加保護費用。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-100">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>老屋翻新通常需要多久時間？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        依工程範圍而定，一般 20 坪公寓<strong class="text-stone-900">基礎翻新約 21-28 天</strong>，完整改造含格局變動約 <strong
-                            class="text-stone-900">30-45 天</strong>。透天厝因樓層多、搬運不便會再增加 7-14 天。實際工期會在現場勘查後提供精確時程表，包含防水 48hr
-                        試水、材料進場等緩衝時間。
-                    </div>
-                </details>
+            <!-- FAQ 03 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-200"
+                open>
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>舊屋翻新工期通常要多久？溫ㄟ如何控管進度？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        以台南常見的 25 坪左右透天或公寓為例，<strong>全屋翻新約需 2.5 至 4 個月。</strong>
+                        <br><br>
+                        • <strong>基礎工程（1-2月）</strong>：拆除、水電重拉、泥作粉刷、防水測試。<br>
+                        • <strong>裝飾工程（1-2月）</strong>：木作、油漆、廚衛設備安裝、完工清潔。<br><br>
+                        溫ㄟ團隊使用 <strong>LINE 群組每日匯報</strong>，配合明確的施工進度表，讓您人不在現場也能掌握今天做到了哪裡，不怕工程「爛尾」或無故延宕。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-150">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>會不會做到一半追加費用？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        我們堅持<strong
-                            class="text-stone-900">「現場勘查後書面報價」</strong>，將所有工項與費用列清楚（拆除、水電、防水、泥作、木作、油漆、清潔等）。<strong
-                            class="text-stone-900">除非您在施工中提出額外需求</strong>（如增加插座、更改材料等級、追加木作），否則不會有追加費用。若拆除後發現隱藏問題（如嚴重漏水、樑柱裂縫）會先拍照說明，經您同意後才施作。
-                    </div>
-                </details>
+            <!-- FAQ 04 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-300">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>老屋翻修最常見的「隱藏地雷」與追加預算有哪些？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        老屋翻修最怕拆開後的驚喜。常見的「加價地雷」包括：
+                        <br><br>
+                        1. <strong>結構補強</strong>：拆除後發現樑柱龜裂嚴重或海砂屋情況。<br>
+                        2. <strong>隱蔽性滲漏</strong>：原本以為只是牆壁發霉，拆除後才發現樓板鋼筋鏽蝕嚴重。<br>
+                        3. <strong>非法增建拆除</strong>：若涉及產權爭議或法規變動，可能需要拆除調整。<br><br>
+                        <strong>溫ㄟ的承諾</strong>：我們在初期估價時會憑藉豐富經驗，將潛在問題可能產生的費用「誠實預告」。所有追加項必先經過雙方確認並簽署變更單，絕對不讓您在結算時才被「驚嚇」。
+                    </p>
+                </div>
+            </details>
 
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-200">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>老屋翻新需要申請建築執照嗎？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">一般室內翻新不需要</strong>，但若涉及<strong
-                            class="text-stone-900">「結構補強」「外牆變更」「增建」</strong>則需申請。我們會在勘查時告知是否需要相關程序，並協助您了解申辦流程（通常委由建築師或土木技師簽證）。若只是室內格局調整、水電更新、防水施作，屬於室內裝修範圍，依規定向管委會或鄰居告知即可。
-                    </div>
-                </details>
-
-                <details class="group bg-white border border-stone-200 rounded-sm overflow-hidden reveal delay-250">
-                    <summary
-                        class="p-6 cursor-pointer flex justify-between items-center font-bold text-lg hover:bg-stone-50 transition-colors">
-                        <span>我的老屋適合翻新嗎？還是該重建？</span>
-                        <svg class="w-5 h-5 text-stone-400 group-open:rotate-180 transition-transform" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7">
-                            </path>
-                        </svg>
-                    </summary>
-                    <div class="px-6 pb-6 text-stone-600 leading-relaxed border-t border-stone-100 pt-6">
-                        <strong class="text-stone-900">需現場評估。</strong>若樑柱結構完好（混凝土強度 ≥210 kgf/cm²）、地基穩定、無嚴重傾斜，<strong
-                            class="text-stone-900">翻新通常較經濟實惠</strong>（約重建成本的 30-50%）。若結構嚴重老化、樑柱裂縫
-                        >0.5mm、有安全疑慮，則建議重建。我們會用專業儀器檢測後誠實告知您最適合的方案，<strong class="text-stone-900">絕不為了接案而隱瞞風險</strong>。
-                    </div>
-                </details>
-            </div>
+            <!-- FAQ 05 -->
+            <details
+                class="group border border-stone-200 rounded-2xl overflow-hidden hover:shadow-md transition-all duration-300 reveal delay-400">
+                <summary
+                    class="p-8 cursor-pointer font-bold text-stone-900 text-lg hover:bg-stone-50 transition-colors flex items-center justify-between group">
+                    <span>改建需要申請建築執照或室內裝修許可嗎？溫ㄟ可以代辦嗎？</span>
+                    <svg class="w-5 h-5 shrink-0 transition-transform duration-300 group-[details[open]]:rotate-180"
+                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                        </path>
+                    </svg>
+                </summary>
+                <div class="p-8 pt-4 bg-stone-50 border-t border-stone-200">
+                    <p class="text-stone-600 leading-relaxed text-sm">
+                        <strong>這與施工範圍密切相關。</strong>
+                        <br><br>
+                        • <strong>需申請的情形</strong>：涉及結構體變更（如樑柱打除）、外牆立面更改、消防避難路徑變更等。若為公眾使用建築物則規定更嚴格。<br>
+                        • <strong>溫ㄟ的服務</strong>：我們合作有專業的建築師與跑照團隊，可以協助代辦。合規合法施工，才是長久居住的保障。<br><br>
+                        如果您不確定目前的改建專案是否合規，歡迎與我聯繫，我會根據現行法規給予專業諮詢。
+                    </p>
+                </div>
+            </details>
 
             <!-- 最終CTA -->
             <div class="bg-stone-900 text-white rounded-sm p-12 text-center reveal">
