@@ -991,11 +991,54 @@
             </div>
         </div>
     </section>
+
     <!-- 7. FOOTER (Mobile-First) -->
     <footer class="bg-stone-dark text-white pt-12 pb-8 px-6 md:px-12 border-t border-stone-800">
         <div class="container mx-auto">
-            <!-- Mobile: 3 大卡片 (Removed for consistency) -->
-            <!-- <div class="md:hidden mb-12"> ... </div> -->
+            <!-- Mobile: 3 大卡片 -->
+            <div class="md:hidden mb-12">
+                <!-- 卡片 1：超大電話 CTA -->
+                <div class="text-center py-12 border-b border-stone-800/50 mb-12">
+                    <h3 class="text-3xl font-medium tracking-tight mb-6">Ready to Build?</h3>
+                    <p class="text-stone-400 mb-8 max-w-md mx-auto text-sm">
+                        別讓房屋問題困擾生活。現在就與溫ㄟ討論您的修繕需求。
+                    </p>
+                    <a href="tel:0970356105"
+                        class="block w-full text-4xl font-light tracking-tighter text-center py-8 bg-stone-900 hover:bg-stone-800 transition-colors rounded-lg">
+                        0970-356-105
+                    </a>
+                </div>
+
+                <!-- 卡片 2：聯絡資訊 -->
+                <div class="grid grid-cols-2 gap-6 mb-12">
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold tracking-widest text-stone-500 uppercase block mb-2">LINE</span>
+                        <a href="https://line.me/ti/p/1y0e1_elhk"
+                            class="block text-lg font-light hover:text-stone-300 transition-colors">
+                            傳照片估價
+                        </a>
+                    </div>
+                    <div class="space-y-4">
+                        <span class="text-xs font-bold tracking-widest text-stone-500 uppercase block mb-2">地址</span>
+                        <span class="text-lg font-light block">台南市新化區<br>那拔林480號</span>
+                    </div>
+                </div>
+
+                <!-- 卡片 3：熱門服務 -->
+                <div class="space-y-4">
+                    <span class="text-xs font-bold tracking-widest text-stone-500 uppercase block mb-4">熱門服務</span>
+                    <div class="grid grid-cols-2 gap-4">
+                        <a href="service/old-house-renovation.html"
+                            class="text-sm text-stone-400 hover:text-white transition-colors block py-2">老屋翻新</a>
+                        <a href="service/bathroom-renovation.html"
+                            class="text-sm text-stone-400 hover:text-white transition-colors block py-2">浴室翻修</a>
+                        <a href="service/waterproofing.html"
+                            class="text-sm text-stone-400 hover:text-white transition-colors block py-2">防水抓漏</a>
+                        <a href="service/masonry.html"
+                            class="text-sm text-stone-400 hover:text-white transition-colors block py-2">泥作工程</a>
+                    </div>
+                </div>
+            </div>
 
             <!-- Desktop: 完整版 -->
             <div class="hidden md:grid lg:grid-cols-5 gap-12 mb-16">
@@ -1139,8 +1182,7 @@
                             <span class="text-[10px] text-stone-400">漏水 / 乾濕分離</span>
                         </a>
                         <a href="service/waterproofing.html" onclick="toggleMenu()
-                        "
-                            class="flex items-center justify-between text-sm text-stone-600 hover:text-stone-900 transition-colors">
+                    " class="flex items-center justify-between text-sm text-stone-600 hover:text-stone-900 transition-colors">
                             <span>防水抓漏</span>
                             <span class="text-[10px] text-stone-400">頂樓 / 外牆</span>
                         </a>
