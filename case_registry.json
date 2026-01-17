@@ -6,7 +6,7 @@
             "category": "老屋翻新",
             "location": "台南新化",
             "year": "2024",
-            "image": "assets/images/projects/renovation_hero_demolition.png",
+            "image": "assets/images/projects/renovation_hero_demolition.webp",
             "description": "老屋結構補強與空間重塑，將舊宅轉化為現代生活空間。",
             "link": "cases.html",
             "tags": [
@@ -20,7 +20,7 @@
             "category": "浴室工程",
             "location": "永康區",
             "year": "2023",
-            "image": "assets/images/projects/bathroom-renovation-wall-tiling-process.jpg",
+            "image": "assets/images/projects/bathroom-renovation-wall-tiling-process.webp",
             "description": "三十年老屋浴室徹底翻新，解決漏水問題並升級乾濕分離。",
             "link": "cases.html",
             "tags": [
@@ -35,7 +35,7 @@
             "category": "防水工程",
             "location": "安平區",
             "year": "2022",
-            "image": "assets/images/projects/exterior-wall-waterproofing-narrow-space.jpg",
+            "image": "assets/images/projects/exterior-wall-waterproofing-narrow-space.webp",
             "description": "針對狹窄通道與防火巷之高難度防水施作，確保建築外殼滴水不漏。",
             "link": "cases.html",
             "tags": [
@@ -49,7 +49,7 @@
             "category": "泥作粉光",
             "location": "東區",
             "year": "2021",
-            "image": "assets/images/projects/wall-rendering-finish-smooth-surface.jpg",
+            "image": "assets/images/projects/wall-rendering-finish-smooth-surface.webp",
             "description": "大面積牆面與地坪粉光，達到 CNS 標準之極致平整度。",
             "link": "cases.html",
             "tags": [
@@ -71,9 +71,9 @@
                 "after": "歷經三次大雨測試，天花板完全乾燥，無任何滲漏跡象。隨後進行美化復原施工。"
             },
             "images": {
-                "before": "assets/images/projects/ceiling-leak-repair-before-01.jpg",
-                "process": "assets/images/projects/ceiling-leak-repair-process-03.jpg",
-                "after": "assets/images/projects/ceiling-leak-repair-after-01.jpg"
+                "before": "assets/images/projects/ceiling-leak-repair-before-01.webp",
+                "process": "assets/images/projects/ceiling-leak-repair-process-03.webp",
+                "after": "assets/images/projects/ceiling-leak-repair-after-01.webp"
             }
         },
         {
@@ -90,9 +90,9 @@
                 "after": "完工後呈現現代簡約風格。坡度抓得非常準確，排水順暢無積水，展現職人貼磚工法。"
             },
             "images": {
-                "before": "assets/images/projects/bathroom-renovation-wall-tiling-process.jpg",
-                "process": "assets/images/projects/bathroom-tile-corner-detail-alignment.jpg",
-                "after": "assets/images/projects/laser-leveling-wall-tile-installation.jpg"
+                "before": "assets/images/projects/bathroom-renovation-wall-tiling-process.webp",
+                "process": "assets/images/projects/bathroom-tile-corner-detail-alignment.webp",
+                "after": "assets/images/projects/laser-leveling-wall-tile-installation.webp"
             }
         },
         {
@@ -102,7 +102,7 @@
             "location": "善化區",
             "year": "2025",
             "month": "09",
-            "image": "assets/images/projects/waterproofing-case-rooftop.png",
+            "image": "assets/images/projects/waterproofing-case-rooftop.webp",
             "description": "長年漏水 → 徹底根治。綠色 PU 防水層施作，含底塗、中塗及抗紫外線面層。",
             "duration": "5 天",
             "warranty": "3 年"
@@ -114,7 +114,7 @@
             "location": "永康區",
             "year": "2024",
             "month": "07",
-            "image": "assets/images/projects/waterproofing-case-exterior.png",
+            "image": "assets/images/projects/waterproofing-case-exterior.webp",
             "description": "滲水發霉 → 牆面如新。專業高空作業，針對抿石子外牆進行透明防水漆佈噴。",
             "duration": "7 天"
         },
@@ -125,7 +125,7 @@
             "location": "東區",
             "year": "2023",
             "month": "05",
-            "image": "assets/images/projects/waterproofing-case-bathroom.png",
+            "image": "assets/images/projects/waterproofing-case-bathroom.webp",
             "description": "反覆漏水 → 一勞永逸。拆除後重做三道黑膠防水層與雷射水平檢測。",
             "duration": "3 天"
         },
@@ -136,7 +136,7 @@
             "location": "台南市區",
             "year": "2022",
             "month": "05",
-            "image": "assets/images/projects/narrow-corridor-masonry-renovation.jpg",
+            "image": "assets/images/projects/narrow-corridor-masonry-renovation.webp",
             "description": "針對防火巷狹窄空間之牆面拉皮與泥作整修，確保結構支撐力。",
             "duration": "14 天"
         },
@@ -147,7 +147,7 @@
             "location": "新化區",
             "year": "2021",
             "month": "10",
-            "image": "assets/images/projects/window-frame-installation-mortar-filling.jpg",
+            "image": "assets/images/projects/window-frame-installation-mortar-filling.webp",
             "description": "專業窗框崁縫技術，配合 1:3 砂漿填補，解決窗邊滲水隱患。",
             "duration": "7 天"
         },
@@ -157,7 +157,7 @@
             "category": "地坪整平",
             "location": "永康區",
             "year": "2023",
-            "image": "assets/images/projects/tiling_case_living_room.png",
+            "image": "assets/images/projects/tiling_case_living_room.webp",
             "description": "高流動性自平水泥施作，達成水平誤差 ±1mm 之極致表現。",
             "duration": "3 天"
         },
@@ -167,7 +167,7 @@
             "category": "水電工程",
             "location": "安平區",
             "year": "2024",
-            "image": "assets/images/projects/plumbing_case_rewiring.png",
+            "image": "assets/images/projects/plumbing_case_rewiring.webp",
             "description": "30 年屋齡配線全面更新 + 配電箱升級，解決跳電隱患。",
             "duration": "10 天"
         },
@@ -177,7 +177,7 @@
             "category": "水電工程",
             "location": "東區",
             "year": "2022",
-            "image": "assets/images/projects/plumbing_case_breaker_box.png",
+            "image": "assets/images/projects/plumbing_case_breaker_box.webp",
             "description": "舊式配電箱更換為漏電保護型，迴路標示清楚。",
             "duration": "1 天"
         },
@@ -187,7 +187,7 @@
             "category": "水電工程",
             "location": "永康區",
             "year": "2025",
-            "image": "assets/images/projects/plumbing_hero_installation.png",
+            "image": "assets/images/projects/plumbing_hero_installation.webp",
             "description": "鐵管更換為 PPR 管，解決水質發黃及洩水坡度問題。",
             "duration": "5 天"
         },
@@ -197,7 +197,7 @@
             "category": "居家修繕",
             "location": "台南市區",
             "year": "2024",
-            "image": "assets/images/projects/plumbing_case_breaker_box.png",
+            "image": "assets/images/projects/plumbing_case_breaker_box.webp",
             "description": "30 年透天厝配電箱整理，清潔雜亂線路、更換老化斷路器。",
             "duration": "0.5 天"
         },
@@ -207,7 +207,7 @@
             "category": "居家修繕",
             "location": "台南市區",
             "year": "2023",
-            "image": "assets/images/projects/home-repair-painting-05.jpg",
+            "image": "assets/images/projects/home-repair-painting-05.webp",
             "description": "局部壁癌處理後的牆面復原，含批土、研磨與調色粉刷。",
             "duration": "1 天"
         },
@@ -217,7 +217,7 @@
             "category": "貼磚工程",
             "location": "台南市區",
             "year": "2024",
-            "image": "assets/images/projects/bathroom-renovation-completed-grey-tiles.jpg",
+            "image": "assets/images/projects/bathroom-renovation-completed-grey-tiles.webp",
             "description": "針對大樓頂樓受風面進行特化貼磚工法，強化耐候性與結構防水，解決外牆滲水隱患。",
             "duration": "14 天",
             "tags": [
@@ -232,7 +232,7 @@
             "category": "浴室工程",
             "location": "南科周邊",
             "year": "2025",
-            "image": "assets/images/projects/waterproofing-case-bathroom.png",
+            "image": "assets/images/projects/waterproofing-case-bathroom.webp",
             "description": "頂樓浴室長期滲漏，經結構補強後施作三道黑膠防水層與雷射水平檢測，徹底根治漏水。",
             "duration": "10 天",
             "tags": [
