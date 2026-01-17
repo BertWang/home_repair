@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://bertwang.github.io/home_repair/sitemap.xml
+Sitemap: https://tainanfix.de5.net/sitemap.xml
