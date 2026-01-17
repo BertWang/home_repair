@@ -217,7 +217,6 @@ document.addEventListener('DOMContentLoaded', () => {
             { threshold: 0.1 }
         );
 
-        // footer.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-700');
         footer.classList.add('transition-all', 'duration-700');
         footerObserver.observe(footer);
     }
